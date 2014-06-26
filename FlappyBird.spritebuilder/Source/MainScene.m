@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 MakeGamesWithUs inc. Free to use for all purposes.
 //
 
-#import "GamePlayScene.h"
 #import "MainScene.h"
 #import "Obstacle.h"
 
@@ -24,6 +23,8 @@
 @end
 
 @implementation MainScene {
+    
+    
     
     CGPoint _cloudParallaxRatio;
     CGPoint _bushParallaxRatio;
