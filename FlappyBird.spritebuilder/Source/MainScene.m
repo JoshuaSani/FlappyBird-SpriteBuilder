@@ -6,8 +6,7 @@
 //  Copyright (c) 2014 MakeGamesWithUs inc. Free to use for all purposes.
 //
 
-#import "MainScene.h"
-#import "Obstacle.h"
+
 
 @interface CGPointObject : NSObject
 {
@@ -21,6 +20,9 @@
 +(id) pointWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
 -(id) initWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
 @end
+
+#import "MainScene.h"
+#import "Obstacle.h"
 
 @implementation MainScene {
     
