@@ -7,7 +7,7 @@
 //
 
 
-
+/*
 @interface CGPointObject : NSObject
 {
     CGPoint _ratio;
@@ -20,6 +20,7 @@
 +(id) pointWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
 -(id) initWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
 @end
+ */
 
 #import "MainScene.h"
 #import "Obstacle.h"
